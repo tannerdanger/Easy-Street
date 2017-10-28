@@ -1,0 +1,30 @@
+Rework Code: 
+{
+	turn- 
+		if( fwd = light || fwd = street || left = street || left == light ....)
+	into - a helper method called isValid() where you send it a direction and it determines if its valid.
+		*possibly have a different loop for each vehicle type that uses the behavior of each class
+		*try to put this isValid into the canPass to shorten code ("try to wrap it in a private helper method")		
+}
+
+AbstractVehicle, ATV, Bicycle, Car, Human, Taxi
+Truck, TruckTest, 
+
+
+JavaDoc done: 
+
+ATV, Bicycle, Car, Human, Taxi, Truck
+
+
+
+
+
+CheckStyle done: 
+
+ATV, Bicycle, Car, Human, Taxi, Truck
+
+
+
+Runs Properly: 
+
+ATV, Bicycle, Car, Human, Taxi
